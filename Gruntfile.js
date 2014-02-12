@@ -26,7 +26,9 @@ module.exports = function(grunt) {
         src: ['lib/**/*.js'],
         directives: {
           node: true,
-          todo: true
+          todo: true,
+          nomen: true,
+          stupid: true
         }
       }
     }

@@ -1,10 +1,10 @@
 {
   "name": "gruntvention",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "A set of helpful tools that make it easy to write grunt-convetions.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test --color=false"
   },
   "keywords": [
     "grunt",
@@ -12,17 +12,18 @@
   ],
   "repository": "https://github.com/gruntvention/gruntvention.git",
   "dependencies": {
-    "glob": "~3.2.6",
-    "matchdep": "~0.1.2",
-    "grunt": "~0.4.1",
-    "npmconf": "~0.1.5",
-    "my-ip": "~1.1.0"
+    "glob": "~3.x",
+    "matchdep": "~0.x",
+    "grunt": "~0.x",
+    "npmconf": "~0.x",
+    "my-ip": "~1.x",
+    "lodash": "~2.x"
   },
   "author": "Martin Heidegger <mh@leichtgewicht.at>",
   "license": "MIT",
   "devDependencies": {
-    "grunt-mocha-test": "~0.7.0",
-    "blanket": "~1.1.5",
-    "grunt-jslint": "~1.1.1"
+    "grunt-mocha-test": "~0.x",
+    "blanket": "~1.x",
+    "grunt-jslint": "~1.x"
   }
 }
